@@ -1,0 +1,10 @@
+{
+  "services": [
+    {
+      "name": "elasticsearch",
+      "buildCommand": "docker-compose build",
+      "startCommand": "docker-compose up",
+      "source": "."
+    }
+  ]
+}
